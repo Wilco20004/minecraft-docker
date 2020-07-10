@@ -8,6 +8,7 @@ ENV JAVA_OPTS='-Xmx1024m'
 ENV MINECRAFT_FileName='spigot-1.16.1.jar'
 ENV MINECRAFT_JAR='https://cdn.getbukkit.org/spigot/'
 
+
 # Install wget and certificates
 RUN     apk update \
     &&  apk add ca-certificates wget bash \
