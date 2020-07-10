@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  minecraft-docker:
+    image: minecraft-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 25565

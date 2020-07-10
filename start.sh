@@ -1,6 +1,8 @@
 #! /bin/bash
 
-java $JAVA_OPTS -jar /minecraft/$MINECRAFT_FileName &
+echo eula=true > /data/eula.txt
+
+java $JAVA_OPTS -jar /opt/minecraft/$MINECRAFT_FileName &
 pid="$!"
 trap "echo 'Stopping PID $pid'; kill -SIGTERM $pid" SIGINT SIGTERM
 
