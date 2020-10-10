@@ -5,7 +5,7 @@ FROM openjdk:8-jre-alpine
 LABEL Willem Coetzee <wilco@peachss.co.za>
 
 ENV JAVA_OPTS='-Xmx1024m'
-ENV MINECRAFT_FileName='spigot-1.16.1.jar'
+ENV MINECRAFT_FileName='spigot-1.16.3.jar'
 ENV MINECRAFT_JAR='https://cdn.getbukkit.org/spigot/'
 
 
