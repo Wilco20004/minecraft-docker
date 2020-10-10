@@ -1,6 +1,6 @@
 # minecraft-docker
 
-latest version: 1.16.1
+latest version: 1.16.3
 
 To run it you first need to create a data dir (or just mount your existing one into the container): mkdir /minecraft/data
 
